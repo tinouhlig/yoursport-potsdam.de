@@ -1,0 +1,33 @@
+section#about-header
+    color: $color-standard-font
+    background:
+        image: url('/img/SelinaBallbild.png')
+        size: contain
+        position: right center
+        repeat: no-repeat
+    .about-col-50
+        width: 50%
+
+@media (max-width: 1200px)
+    section#about-header
+        .about-col-50
+            width: 100%
+        background-image: none
+
+section#about-trainer
+    .trainer-container
+        padding: 0px 75px
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+
+        .trainer-box
+            width: 350px
+            margin: 0 25px
+
+    .trainer-img
+        text-align: center
+        img
+            width: 100%
+            max-width: 400px
+            margin: 0px auto

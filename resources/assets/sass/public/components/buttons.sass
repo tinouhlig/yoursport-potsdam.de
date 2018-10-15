@@ -1,0 +1,81 @@
+.button-large
+    padding: 15px 30px
+
+// .button-primary
+//     background-color: $color-primary
+//     color: $color-light
+//     border-radius: 0
+//     font-weight: normal
+//     box-sizing: border-box
+//     //eingefügt
+//     box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4)
+//     transition: all ease-in-out 300ms
+//     //eingefügt
+//     &-border
+//         @extend .button-primary
+//         border: 1px solid $color-light
+//     &:hover,
+//     &:focus
+//         color: $color-light
+//         box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2)
+//         transform: scale(1.05)
+
+.btn.button-primary
+    background-color: $color-primary
+    color: $color-light
+    border-radius: 0
+    font-weight: normal
+    box-sizing: border-box
+    &:hover,
+    &:focus
+        border: 1px solid $color-primary
+        background-color: $color-light
+        color: $color-primary
+        -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5)
+        -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5)
+        box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5)
+    &-border 
+        @extend .button-primary
+        border: 1px solid $color-light
+
+.button-light
+    background-color: $color-light
+    color: $color-primary
+    border-radius: 0
+    font-weight: normal
+    box-sizing: border-box
+    &-border
+        @extend .button-light
+        border: 1px solid $color-primary
+
+.btn.button-light
+    &:hover,
+    &:focus
+        background-color: $color-primary
+        color: $color-light
+        -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5)
+        -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5)
+        box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5)
+
+.button-primary-toggle
+    border-bottom: 1px solid $color-primary
+    background-color: $color-light
+    color: $color-primary
+    padding: 14px 0px
+
+.button-primary-transparent
+    background-color: transparent
+    color: $color-light
+    border-radius: 0
+    font-weight: normal
+    box-sizing: border-box
+    &-border
+        @extend .button-primary-transparent
+        border: 1px solid $color-light
+    &:hover,
+    &:focus
+        color: $color-primary
+        background-color: $color-light
+        -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5)
+        -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5)
+        box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5)

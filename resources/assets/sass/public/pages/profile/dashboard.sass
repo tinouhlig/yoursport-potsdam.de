@@ -1,0 +1,65 @@
+
+div#profile-dashboard
+    margin-top: 25px
+    padding-top: 0px
+
+#profil-header
+    background: 
+        image: url(../img/Yours_Kursraum_profil.jpg)
+        position: center
+        size: cover
+
+
+.profile-kurs-wrapper
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+
+.profile-kurs-item
+    min-width: 30%
+    padding-bottom: 20px
+    font-size: $font-normal
+
+    &-header
+        text-align: center
+
+.profile-dashboard-kursliste
+    list-style: none
+    padding: 0
+    margin: 0
+    text-align: center
+    font-size: $font-normal
+    li
+        margin: 0 30px
+        padding: 15px 0
+        border-bottom: 1px solid $color-light-grey
+        &:last-child
+            border: none
+
+.profile-dashboard-button 
+    margin-left: 15px
+
+    &:hover
+        color: $color-light
+
+
+
+.kurstermin-info-cta
+    text-align: center
+    margin-top: 25px
+
+.profile-dashboard-table 
+    font-size: $font-normal
+    text-align: left
+    margin: 0 auto
+    tr
+        border-bottom: 1px solid $color-light-grey
+        &:last-child
+            border: none
+        td
+            padding: 15px
+            @media (max-width: 470px)
+                padding: 5px 0px
+
+
+

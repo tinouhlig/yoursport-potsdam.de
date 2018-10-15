@@ -1,0 +1,113 @@
+.navbar
+    background:
+        color: rgba(240,95,64,0.8)
+    .navbar-nav
+        li
+            a
+                color: $color-light
+                font-weight: 100
+                &:hover,
+                &:hover:focus
+                    color: $color-light
+                    text-decoration: underline
+
+                &:focus
+                    font-weight: 100 !important
+                    outline: none
+                    color: #fff
+
+
+.navbar-header
+    a.navbar-brand
+        font:
+            family: "neoSans"
+            style: italic
+            size: 18px
+            weight: 100 !important
+        padding: 15px
+        img
+            max-height: 100%
+            max-width: 100%
+    p.navbar-brand
+        margin: 0
+        font-weight: 100 !important
+        letter-spacing: 0 !important
+        padding-left: 30px
+
+.navbar-default
+    .navbar-toggle
+        border-radius: 0
+        border-color: $color-light
+        .icon-bar
+            background-color: $color-light
+        &:hover,
+        &:focus
+            background-color: $color-light
+            border-color: $color-primary
+            .icon-bar
+                background-color: $color-primary
+
+.dropdown-menu.dropdown-profile-list
+    border-radius: 0
+    border: 1px solid rgba(255, 255, 255, 0.3)
+    text-align: center
+    li
+        a
+            &:hover
+                background-color: transparent
+                text-decoration: underline
+
+.open
+    a
+        &:hover,
+        &:focus
+            background-color: transparent !important
+.affix-top
+    .dropdown-menu.dropdown-profile-list
+        background-color: $color-primary-transparent
+        color: $color-light
+        li
+            a
+                &:hover
+                    color: $color-light
+    .open
+        a
+            &:hover,
+            &:focus
+                color: $color-light !important
+
+.affix
+    .dropdown-menu.dropdown-profile-list
+        li
+            a
+                color: $color-grey
+                &:hover
+                    color: $color-primary
+
+@media (max-width: 930px)
+
+    .dropdown-menu.dropdown-profile-list
+        border-radius: 0
+        text-align: left
+        color: $color-light
+        li
+            a
+                &:hover,
+                &:focus
+                    background-color: transparent !important
+                    text-decoration: underline
+                    color: $color-light
+
+    .open
+        a
+            color: $color-light !important
+            &:hover,
+            &:focus
+                background-color: transparent !important
+                color: $color-light !important 
+    .affix-top
+        .dropdown-menu.dropdown-profile-list
+            background-color: transparent
+
+
+

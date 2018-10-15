@@ -1,0 +1,38 @@
+@import "vendor/creative";
+@import "public/components/variables";
+@import "public/components/buttons";
+@import "node_modules/bourbon/app/assets/stylesheets/bourbon";
+@import "public/components/modal";
+@import "public/helpers/transitions";
+@import "font/crayon";
+@import "public/components/flash-notification";
+
+
+// page styles
+@import "public/pages/kurse";
+@import "public/pages/kurs";
+@import "public/pages/kursplan";
+@import "public/pages/impressum";
+@import "public/pages/preise";
+@import "public/pages/raeume";
+@import "public/pages/about";
+@import "public/pages/massagen";
+
+@import "public/pages/home/rezension";
+@import "public/pages/home/kontakt";
+@import "public/pages/home/anfahrt";
+@import "public/pages/home/angebote";
+
+@import "public/pages/profile/general";
+@import "public/pages/profile/dashboard";
+@import "public/pages/profile/user-data";
+@import "public/pages/profile/user_coursedates";
+
+
+// partial styles
+@import "public/partials/general/header";
+@import "public/partials/general/navigation";
+@import "public/partials/general/footer";
+@import "public/partials/general/login";
+@import "public/partials/general/kursanmeldungModal";
+@import "public/partials/general/cta-neukunde";

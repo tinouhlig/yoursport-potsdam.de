@@ -1,0 +1,62 @@
+.cta-neukunde
+    position: fixed
+    top: 50%
+    @include transform(translateY(-50%))
+    left: -300px
+    opacity: 0
+    width: 300px
+    padding: 30px
+    -webkit-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5)
+    -moz-box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5)
+    box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.5)
+    z-index: 99
+    p
+        font-family: "crayon"
+    .cta-heading
+        p
+            font-size: $font-huge
+        .cta-neukunde-big-number
+            font-size: 40px
+    .cta-neukunde-close
+        border: none
+        background: transparent
+        outline: none
+        color: $color-light
+        &:hover,
+        &:focus
+            text-decoration: underline
+    .cta-neukunde-close-button
+        position: absolute
+        top: 10px
+        right: 10px
+        height: 30px
+        width: 30px
+        overflow: hidden
+        margin: 0
+        padding: 0
+        border: none
+        box-shadow: none
+        cursor: pointer
+        background-color: transparent
+        &:focus,
+        &:active
+            outline: none
+        span
+            display: block
+            position: absolute
+            top: 10px
+            left: 0
+            right: 0
+            height: 3px
+            background: $color-light
+            transition: transform 0.35s ease-in-out
+            @include transform(rotate(45deg))
+            &:before
+                content: ""
+                position: absolute
+                display: block
+                left: 0
+                width: 100%
+                height: 3px
+                background-color: $color-light
+                @include transform(rotate(90deg))

@@ -1,0 +1,42 @@
+
+
+#rezension
+    .carousel-control
+        background: none !important
+        .fa
+            position: absolute
+            top: 50%
+            margin-top: -20px
+
+    .rezension-container
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .rezension-img
+            padding-right: 100px
+            img
+                min-width: 150px
+                max-width: 150px
+                border: 1px solid $color-light
+                webkit-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.5)
+                -moz-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.5)
+                box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.5)
+        
+        .rezension-text
+            padding: 0px 15px
+            p
+                color: $color-light
+
+            em.rezension-autor
+                font-size: 18px
+                color: $color-light
+
+@media (max-width: 950px)
+    #rezension
+        .rezension-container
+            display: block
+
+            .rezension-img
+                width: 100%
+                padding-right: 0px
+                padding-bottom: 20px

@@ -1,0 +1,209 @@
+section.massagen-header
+    position: relative
+    width: 100%
+    text-align: center
+    color: #fff
+    background:
+        image: url(../img/Massagefrau.jpg)
+        position: center
+        size: cover
+    .header-content
+        width: 100%
+        text-align: center
+        position: relative
+        padding: 100px 15px
+        .header-content-inner
+            padding: 30px 10px
+            hr
+                border-color: #fff
+            p
+                margin: 0
+            em
+                display: block
+                margin-bottom: 20px
+            h1
+                font:
+                    family: 'neoSans'
+                    weight: 100
+                    style: italic
+                    size: 60px
+                span
+                    font-size: 14px
+            h2
+                width: 80%
+                margin: 0 auto
+                color: $color-light
+                font:
+                    weight: 100
+                    size: $font-big
+                em
+                    font-size: 18px
+                    font-style: normal
+        .header-inner-bg
+            padding: 30px 10px
+            background-color: rgba(240,95,64,0.8)
+
+.carousel-fade
+    .carousel-inner
+        .item
+            transition-property: opacity
+
+        .item,
+        .active.left,
+        .active.right
+            opacity: 0
+
+        .active,
+        .next.left,
+        .prev.right
+            opacity: 1
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right
+            left: 0
+            transform: translate3d(0, 0, 0)
+
+    .carousel-control
+        z-index: 2
+
+.carousel-indicators
+    position: relative
+    display: block
+    bottom: 0
+    left: 0
+    width: 100%
+    border-bottom: 1px solid $color-primary
+    li
+        display: block
+        width: 50%
+        height: auto
+        text-indent: inherit
+        border: none
+        border-radius: 0
+        float: left
+        margin: 0
+    li.active
+        width: 50%
+        height: auto
+        background: none
+
+
+.massage-container
+    display: block
+.massage-col
+    display: block
+    width: 100%
+    text-align: center
+#massage-angebote
+    color: $color-grey
+.massage-list
+    list-style: none
+    font-size: $font-normal
+    margin: 0
+    padding: 0
+    padding-bottom: 10px
+    margin-bottom: 15px
+
+    &__item
+        padding-bottom: 5px
+        &:hover,
+        &:focus
+            color: $color-primary
+            cursor: pointer
+    &__item.active
+        color: $color-primary
+
+.massage-preise-container
+    border-top: 1px solid $color-primary
+    padding-top: 20px
+    display: flex
+    justify-content: space-around
+
+.massage-anfrage-button
+    text-align: center
+    margin-top: 50px
+
+#massage-trainer
+    color: $color-light
+.massage-trainer-image
+    img
+        width: 100%
+        max-width: 400px
+.massage-trainer-beschreibung
+    text-align: justify
+
+.massagen-anfrage
+    max-width: 1000px
+    .modal-container
+        width: 100%
+        max-width: 1000px
+
+        input,
+        textarea,
+        select
+            &:focus
+                border: 1px solid $color-primary
+            &[type="submit"]
+                transition: all .35s
+
+@media (min-width: 768px)
+
+    section.massagen-header
+        min-height: 100%
+
+        .header-content
+            position: absolute
+            top: 50%
+            padding: 0 50px
+            transform: translateY(-50%)
+
+            .header-content-inner
+                margin-right: auto
+                margin-left: auto
+                max-width: 800px
+
+
+    .massage-container
+        // margin-top: 20px
+        display: flex
+        justify-content: space-around
+    // .massage-col
+    //     align-self: center
+    .massage-list
+        display: inline-block
+        text-align: left
+        font-size: $font-big
+        &__item
+            &:after
+                margin: 15px 0 0
+                content: " "
+                border-bottom: 2px solid $color-primary
+                max-width: 50px
+                display: block
+            &:last-child
+                &:after
+                    border: none
+
+    .massage-beschreibung
+        text-align: justify
+
+    .carousel-indicators
+        position: relative
+        bottom: 0
+        left: 0
+        width: auto
+        border-bottom: none
+        li
+            display: block
+            width: auto
+            height: auto
+            text-indent: inherit
+            border: none
+            border-radius: 0
+            float: none
+        li.active
+            width: auto
+            height: auto
+            background: none

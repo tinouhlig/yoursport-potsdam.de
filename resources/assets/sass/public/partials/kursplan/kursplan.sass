@@ -1,0 +1,114 @@
+.kursplan-container
+    position: relative
+    display: flex
+    color: $color-light
+    text-align: center
+    .gapRow
+        position: absolute
+        min-height: 50px
+        width: 84%
+        left: 8%
+        z-index: 10
+        border-top: 5px
+        border-left: 0px
+        border-right: 0px
+        border-bottom: 5px
+        border-image: url(/img/icons/kursplan-horizontal.png)
+        border-image-slice: 50 50 50 50
+        border-image-width: 5px 0px 5px 0px
+        border-image-repeat: round
+    .span-column
+        @include size(8% auto)
+    .kursplan-column
+        position: relative
+        @include size(12% auto)
+        box-sizing: border-box
+        border-top: 0px
+        border-left: 5px
+        border-right: 0px
+        border-bottom: 0px
+        border-image: url(/img/icons/kursplan-vertikal.png)
+        border-image-slice: 50 50 50 50
+        border-image-width: 0px 0px 0px 5px
+        border-image-repeat: round
+        .kursplan-header
+            line-height: 2.5
+            font-weight: 100
+            // border-top: 0px
+            // border-left: 0px
+            // border-right: 0px
+            // border-bottom: 5px
+            border-image: url(/img/icons/kursplan-horizontal.png)
+            border-image-slice: 50 50 50 50
+            border-image-width: 0px 0px 5px 0px
+            border-image-repeat: round
+            border-image-outset: 5px 50px
+            p
+                margin: 0
+                span.kursplan-day-date
+                    font-size: 12px
+        .kursplan-cell
+            position: relative
+            border-top: 5px
+            border-left: 0px
+            border-right: 0px
+            border-bottom: 5px
+            border-image: url(/img/icons/kursplan-horizontal.png)
+            border-image-slice: 50 50 50 50
+            border-image-width: 5px 0px 5px 0px
+            border-image-repeat: round
+            p
+                margin: 0
+                padding: 0
+            .kursplan-cell-hover
+                display: none
+                position: absolute
+                top: 0
+                left: 0
+                right: 0
+                bottom: 0
+            &:hover
+                .kursplan-cell-hover
+                    background-color: rgba(240,95,64,0.8)
+                    display: flex
+                    align-items: center
+                    justify-content: center
+
+        &:last-child
+            border-right: 5px
+            border-image-width: 0px 5px 0px 5px
+
+.kursplan-container-small
+    #kursplan-carousel
+        .carousel-control
+            background: none !important
+        .kursplan-header
+            color: #fff
+            text-align: center
+            line-height: 2.5
+            font-weight: 100
+            padding-bottom: 20px
+            p
+                margin: 0
+                span.kursplan-day-date
+                    font-size: 12px
+        .kursplan-cell-small
+            display: flex
+            align-items: center
+            justify-content: center
+            border-image: url(/img/icons/kursplan-horizontal.png)
+            border-image-slice: 50 50 50 50
+            border-image-width: 5px 0px 0px 0px
+            border-image-repeat: round
+            p
+                margin: 0
+                padding: 10px 0
+
+
+@media (max-width: 1100px)
+    .row
+        .kursplan-container  
+            .span-column
+                display: none
+            .kursplan-column
+                @include size(14.29% auto)

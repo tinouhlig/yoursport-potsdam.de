@@ -1,0 +1,47 @@
+#aktion
+    .angebot
+        color: $color-light
+
+        .angebot-beschreibung
+            font-size: $font-small
+
+#angebote
+    a.portfolio-box
+        .portfolio-box-overlay
+            position: absolute
+            bottom: 0
+            height: 10%
+            width: 40%
+            left: 30%
+            text-align: center
+            color: $color-standard-font
+            // background-image: linear-gradient(to top, $color-primary-transparent 30% , rgba(255,255,255,0 ))
+            background-color: $color-primary-transparent
+            display: flex
+            justify-content: center
+            vertical-align: middle
+            transition: all .35s ease-in-out
+            .portfolio-box-inner
+                display: flex
+                flex-direction: column
+                justify-content: center
+                h4
+                    color: $color-light
+                    font-size: $font-normal
+        &:hover
+            .portfolio-box-overlay
+                height: 100%
+                width: 100%
+                left: 0
+
+.home-kursanmeldung-footer-text
+    font-size: $font-small
+    text-align: left
+
+.home-kursanmeldung-form
+    input,
+    textarea
+        &:focus
+            border: 1px solid $color-primary
+        &[type="submit"]
+            transition: all .35s

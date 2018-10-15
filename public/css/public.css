@@ -1,0 +1,1645 @@
+/*!
+ * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+/*body {
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+}*/
+hr {
+  max-width: 50px;
+  border-color: #f05f40;
+  border-width: 3px; }
+
+hr.light {
+  border-color: #fff; }
+
+a {
+  color: #f05f40;
+  transition: all .35s; }
+
+a:hover,
+a:focus {
+  color: #eb3812; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /*font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;*/ }
+
+p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5; }
+
+.bg-primary {
+  background-color: #f05f40; }
+
+.bg-dark {
+  color: #fff;
+  background-color: #222; }
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7); }
+
+section {
+  padding: 100px 0; }
+
+aside {
+  padding: 50px 0; }
+
+.no-padding {
+  padding: 0; }
+
+.navbar-default {
+  border-color: rgba(34, 34, 34, 0.05);
+  /*font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;*/
+  background-color: #fff;
+  transition: all .35s; }
+
+.navbar-default .navbar-header .navbar-brand {
+  text-transform: uppercase;
+  font-size: 14px;
+  /*font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;*/
+  font-weight: 700;
+  color: #fff; }
+
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #fff; }
+
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  color: #222; }
+
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #fff;
+  text-decoration: underline; }
+
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #fff;
+  text-decoration: underline;
+  background-color: transparent; }
+
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent; }
+
+@media (min-width: 930px) {
+  .navbar-default {
+    border-color: rgba(255, 255, 255, 0.3);
+    background-color: transparent; }
+  .navbar-default .navbar-header .navbar-brand {
+    color: #ffffff;
+    letter-spacing: 2px; }
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
+    color: #fff; }
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: #f05f40; }
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: #f05f40; }
+  .navbar-default.affix {
+    border-color: rgba(34, 34, 34, 0.05);
+    background-color: #fff; }
+  .navbar-default.affix .navbar-header .navbar-brand {
+    font-size: 14px;
+    color: #f05f40; }
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #f05f40; }
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: #555; }
+  .navbar-default.affix .nav > li.active > a,
+  .navbar-default.affix .nav > li.active > a:focus,
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #f05f40; }
+  .navbar-default.affix-top .nav > li.active > a,
+  .navbar-default.affix-top .nav > li.active > a:focus,
+  .navbar-default.affix-top .nav > li > a:hover,
+  .navbar-default.affix-top .nav > li > a:focus:hover {
+    color: #fff; } }
+
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  text-align: center;
+  color: #fff;
+  background-image: url(../img/Fitnessraum.jpg);
+  background-position: center;
+  background-size: cover;
+  -o-background-size: cover; }
+
+header .header-content {
+  position: relative;
+  width: 100%;
+  padding: 100px 15px;
+  text-align: center; }
+
+header .header-content .header-content-inner h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+header .header-content .header-content-inner hr {
+  margin: 30px auto; }
+
+/*header .header-content .header-content-inner p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255,255,255,.7);
+}*/
+@media (min-width: 900px) {
+  header {
+    min-height: 100%; }
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    padding: 0 50px;
+    transform: translateY(-50%); }
+  header .header-content .header-content-inner {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 800px; }
+  header .header-content .header-content-inner p {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
+    font-size: 18px; } }
+
+.section-heading {
+  margin-top: 0; }
+
+.service-box {
+  margin: 50px auto 0;
+  max-width: 400px; }
+
+@media (min-width: 992px) {
+  .service-box {
+    margin: 20px auto 0; } }
+
+.service-box p {
+  margin-bottom: 0; }
+
+.portfolio-box {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  max-width: 650px; }
+
+.portfolio-box .portfolio-box-caption {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  background: rgba(240, 95, 64, 0.9);
+  transition: all .35s; }
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%); }
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  padding: 0 15px;
+  /*font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;*/ }
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600; }
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 18px; }
+
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1; }
+
+@media (min-width: 768px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px; }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px; } }
+
+.call-to-action h2 {
+  margin: 0 auto 20px; }
+
+.text-primary {
+  color: #f05f40; }
+
+.no-gutter > [class*=col-] {
+  padding-right: 0;
+  padding-left: 0; }
+
+.btn-default {
+  border-color: #fff;
+  color: #222;
+  background-color: #fff;
+  transition: all .35s; }
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  border-color: #ededed;
+  color: #222;
+  background-color: #f2f2f2; }
+
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  background-image: none; }
+
+.btn-default.disabled,
+.btn-default[disabled],
+fieldset[disabled] .btn-default,
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus,
+.btn-default.disabled:active,
+.btn-default[disabled]:active,
+fieldset[disabled] .btn-default:active,
+.btn-default.disabled.active,
+.btn-default[disabled].active,
+fieldset[disabled] .btn-default.active {
+  border-color: #fff;
+  background-color: #fff; }
+
+.btn-default .badge {
+  color: #fff;
+  background-color: #222; }
+
+.btn-primary {
+  border-color: #f05f40;
+  color: #fff;
+  background-color: #f05f40;
+  transition: all .35s; }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  border-color: #ed431f;
+  color: #fff;
+  background-color: #ee4b28; }
+
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none; }
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  border-color: #f05f40;
+  background-color: #f05f40; }
+
+.btn-primary .badge {
+  color: #f05f40;
+  background-color: #fff; }
+
+.btn {
+  border-radius: 300px;
+  text-transform: uppercase;
+  /*font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;*/
+  font-weight: 700; }
+
+.btn-xl {
+  padding: 15px 30px; }
+
+::-moz-selection {
+  text-shadow: none;
+  color: #fff;
+  background: #222; }
+
+::selection {
+  text-shadow: none;
+  color: #fff;
+  background: #222; }
+
+img::-moz-selection {
+  color: #fff;
+  background: 0 0; }
+
+img::selection {
+  color: #fff;
+  background: 0 0; }
+
+img::-moz-selection {
+  color: #fff;
+  background: 0 0; }
+
+body {
+  webkit-tap-highlight-color: #222; }
+
+.button-large {
+  padding: 15px 30px; }
+
+.btn.button-primary, .btn.button-primary-border {
+  background-color: #f05f40;
+  color: #ffffff;
+  border-radius: 0;
+  font-weight: normal;
+  box-sizing: border-box; }
+  .btn.button-primary:hover, .btn.button-primary-border:hover, .btn.button-primary:focus, .btn.button-primary-border:focus {
+    border: 1px solid #f05f40;
+    background-color: #ffffff;
+    color: #f05f40;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5); }
+  .btn.button-primary-border {
+    border: 1px solid #ffffff; }
+
+.button-light, .button-light-border {
+  background-color: #ffffff;
+  color: #f05f40;
+  border-radius: 0;
+  font-weight: normal;
+  box-sizing: border-box; }
+  .button-light-border {
+    border: 1px solid #f05f40; }
+
+.btn.button-light:hover, .btn.button-light-border:hover, .btn.button-light:focus, .btn.button-light-border:focus {
+  background-color: #f05f40;
+  color: #ffffff;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5); }
+
+.button-primary-toggle {
+  border-bottom: 1px solid #f05f40;
+  background-color: #ffffff;
+  color: #f05f40;
+  padding: 14px 0px; }
+
+.button-primary-transparent, .button-primary-transparent-border {
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 0;
+  font-weight: normal;
+  box-sizing: border-box; }
+  .button-primary-transparent-border {
+    border: 1px solid #ffffff; }
+  .button-primary-transparent:hover, .button-primary-transparent-border:hover, .button-primary-transparent:focus, .button-primary-transparent-border:focus {
+    color: #f05f40;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5); }
+
+.modal-mask {
+  position: fixed;
+  z-index: 9998;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  transition: opacity .3s ease; }
+  .modal-mask .modal-wrapper {
+    max-height: 90%;
+    display: block;
+    width: 90%;
+    overflow-y: auto;
+    max-width: 1000px; }
+  .modal-mask .modal-container {
+    width: 100%;
+    max-width: 1000px;
+    max-height: 100%;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 0px;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    transition: all .3s ease; }
+  .modal-mask .modal-big {
+    width: 900px; }
+  .modal-mask .modal-header {
+    position: relative; }
+    .modal-mask .modal-header .modal-close-button {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      height: 30px;
+      width: 30px;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      border: none;
+      box-shadow: none;
+      cursor: pointer;
+      background-color: transparent; }
+      .modal-mask .modal-header .modal-close-button:focus, .modal-mask .modal-header .modal-close-button:active {
+        outline: none; }
+      .modal-mask .modal-header .modal-close-button span {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: #999;
+        transition: all 0.35s ease-in-out;
+        transform: rotate(45deg); }
+        .modal-mask .modal-header .modal-close-button span:before {
+          content: "";
+          position: absolute;
+          display: block;
+          left: 0;
+          width: 100%;
+          height: 3px;
+          background-color: #999;
+          transform: rotate(90deg); }
+      .modal-mask .modal-header .modal-close-button:hover span {
+        transform: rotate(135deg); }
+    .modal-mask .modal-header h3 {
+      margin-top: 0;
+      text-align: center;
+      color: #555555;
+      font-size: 24px; }
+  .modal-mask .modal-body {
+    margin: 20px 0;
+    text-align: center; }
+  .modal-mask .modal-close-text {
+    color: #f05f40;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 18px; }
+    .modal-mask .modal-close-text:hover, .modal-mask .modal-close-text:focus {
+      text-decoration: underline;
+      border: 0px;
+      outline: 0px; }
+  .modal-mask .modal-default-button {
+    float: right; }
+  .modal-mask .modal-errors {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 0, 0, 0.5); }
+    .modal-mask .modal-errors .modal-error {
+      padding-bottom: 5px; }
+      .modal-mask .modal-errors .modal-error:last-child {
+        padding-bottom: 0px; }
+      .modal-mask .modal-errors .modal-error p {
+        color: #fff; }
+
+.modal-enter, .modal-leave {
+  opacity: 0; }
+
+.modal-enter .modal-container,
+.modal-leave .modal-container {
+  transform: scale(1.1); }
+
+.wait-1s {
+  animation-delay: 1s; }
+
+.modal-enter, .modal-leave {
+  opacity: 0; }
+
+.modal-enter .modal-container,
+.modal-leave .modal-container {
+  transform: scale(1.1); }
+
+@font-face {
+  font-family: "crayon";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/crayon-crumble/DK Crayon Crumble.ttf") format("truetype"); }
+
+.notification {
+  z-index: 999;
+  position: fixed;
+  display: -ms-flexbox;
+  display: flex;
+  top: 10%;
+  right: 0px;
+  border-left: 5px solid #f05f40;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  background-color: #ffffff; }
+  .notification-info {
+    border-color: #f05f40; }
+  .notification-success {
+    border-color: #5cb85c; }
+  .notification-danger {
+    border-color: #d9534f; }
+
+.notification-icon-wrapper {
+  padding: 20px;
+  color: #ffffff;
+  background-image: url(/img/bg-tafel.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.notification-icon-info {
+  color: #f05f40; }
+
+.notification-icon-success {
+  color: #5cb85c; }
+
+.notification-icon-danger {
+  color: #d9534f; }
+
+.notification-message {
+  padding: 0px;
+  margin: 0px; }
+  .notification-message-wrapper {
+    padding: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    vertical-align: middle;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+
+.notification-close-wrapper {
+  padding: 20px 10px 20px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+@media (max-width: 768px) {
+  .notification {
+    position: relative;
+    top: 0;
+    margin: 70px auto 0;
+    width: 75%;
+    text-align: center;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.3); } }
+
+.kurs-link {
+  padding: 15px 0px; }
+  .kurs-link a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px; }
+    .kurs-link a:hover {
+      color: #f05f40; }
+
+.gruppenkurse-links {
+  box-sizing: border-box;
+  border-image: url(/img/icons/kursplan-vertikal.png);
+  border-image-slice: 50 50 50 50;
+  border-image-width: 0px 5px 0px 0px;
+  border-image-repeat: round; }
+
+.gruppenkurse-rechts {
+  box-sizing: border-box;
+  border-image: url(/img/icons/kursplan-vertikal.png);
+  border-image-slice: 50 50 50 50;
+  border-image-width: 0px 5px 0px 0px;
+  border-image-repeat: round; }
+
+.trainer-container {
+  padding: 0px 75px; }
+
+.trainer-img {
+  text-align: center; }
+  .trainer-img img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0px auto; }
+
+section#kurs .kurs-button {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+section#kurs .row .kurs-column {
+  padding: 0px 30px; }
+
+section#kurs .row .kursbeschreibung {
+  text-align: justify; }
+
+section#kurs .row .kurstrainer-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  section#kurs .row .kurstrainer-container .kurstrainer {
+    padding: 0px 50px; }
+    section#kurs .row .kurstrainer-container .kurstrainer h3 {
+      margin-top: 10px; }
+
+section#kurs .row .kurs-termine {
+  padding-top: 15px; }
+  section#kurs .row .kurs-termine .kurs-termin {
+    padding-bottom: 10px; }
+    section#kurs .row .kurs-termine .kurs-termin h4 {
+      font-weight: 700; }
+
+section#kursplan .kursplan-navigation {
+  padding-bottom: 50px; }
+
+section#kursplan .kursplan-container {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  text-align: center; }
+  section#kursplan .kursplan-container .gapRow {
+    position: absolute;
+    min-height: 50px;
+    width: 84%;
+    left: 8%;
+    z-index: 10;
+    border-top: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 5px;
+    border-image: url(/img/icons/kursplan-horizontal.png);
+    border-image-slice: 50 50 50 50;
+    border-image-width: 5px 0px 5px 0px;
+    border-image-repeat: round;
+    border-style: solid; }
+  section#kursplan .kursplan-container .span-column {
+    height: auto;
+    width: 8%; }
+  section#kursplan .kursplan-container .kursplan-column {
+    position: relative;
+    height: auto;
+    width: 12%;
+    box-sizing: border-box;
+    border-top: 0px;
+    border-left: 5px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-image: url(/img/icons/kursplan-vertikal.png);
+    border-image-slice: 50 50 50 50;
+    border-image-width: 0px 0px 0px 5px;
+    border-image-repeat: round;
+    border-style: solid; }
+    section#kursplan .kursplan-container .kursplan-column .kursplan-header {
+      line-height: 2.5;
+      font-weight: 100;
+      border-image: url(/img/icons/kursplan-horizontal.png);
+      border-image-slice: 50 50 50 50;
+      border-image-width: 0px 0px 5px 0px;
+      border-image-repeat: round;
+      border-image-outset: 5px 50px;
+      border-style: solid; }
+      section#kursplan .kursplan-container .kursplan-column .kursplan-header p {
+        margin: 0; }
+        section#kursplan .kursplan-container .kursplan-column .kursplan-header p span.kursplan-day-date {
+          font-size: 12px; }
+    section#kursplan .kursplan-container .kursplan-column .kursplan-cell {
+      position: relative;
+      padding: 20px 0;
+      border-top: 5px;
+      border-left: 0px;
+      border-right: 0px;
+      border-bottom: 5px;
+      border-image: url(/img/icons/kursplan-horizontal.png);
+      border-image-slice: 50 50 50 50;
+      border-image-width: 5px 0px 5px 0px;
+      border-image-repeat: round;
+      border-style: solid; }
+      section#kursplan .kursplan-container .kursplan-column .kursplan-cell p {
+        line-height: 1.8;
+        margin: 0;
+        padding: 0; }
+      section#kursplan .kursplan-container .kursplan-column .kursplan-cell .kursplan-cell-hover {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0; }
+      section#kursplan .kursplan-container .kursplan-column .kursplan-cell:hover .kursplan-cell-hover {
+        background-color: rgba(240, 95, 64, 0.8);
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    section#kursplan .kursplan-container .kursplan-column:last-child {
+      border-right: 5px;
+      border-image-width: 0px 5px 0px 5px;
+      border-style: solid; }
+    section#kursplan .kursplan-container .kursplan-column .kursplan-cell.kursbesucher {
+      background-color: rgba(240, 95, 64, 0.2); }
+
+section#kursplan .kursplan-container-small #kursplan-carousel .carousel-control {
+  background: none !important; }
+
+section#kursplan .kursplan-container-small #kursplan-carousel .kursplan-header {
+  color: #fff;
+  text-align: center;
+  line-height: 2.5;
+  font-weight: 100;
+  padding-bottom: 20px; }
+  section#kursplan .kursplan-container-small #kursplan-carousel .kursplan-header p {
+    margin: 0; }
+    section#kursplan .kursplan-container-small #kursplan-carousel .kursplan-header p span.kursplan-day-date {
+      font-size: 12px; }
+
+section#kursplan .kursplan-container-small #kursplan-carousel .kursplan-cell-small {
+  padding: 10px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-image: url(/img/icons/kursplan-horizontal.png);
+  border-image-slice: 50 50 50 50;
+  border-image-width: 5px 0px 0px 0px;
+  border-image-repeat: round;
+  border-style: solid; }
+  section#kursplan .kursplan-container-small #kursplan-carousel .kursplan-cell-small p {
+    margin: 0; }
+  section#kursplan .kursplan-container-small #kursplan-carousel .kursplan-cell-small a.btn {
+    margin: 5px 0; }
+
+section#kursplan .kursplan-info {
+  padding-top: 30px;
+  color: #ffffff; }
+
+@media (max-width: 1100px) {
+  .row .kursplan-container .span-column {
+    display: none; }
+  .row .kursplan-container .kursplan-column {
+    width: 14.29% !important;
+    height: auto; } }
+
+.kursplan-kursanmeldung {
+  max-width: 1000px; }
+  .kursplan-kursanmeldung .modal-container {
+    width: 100%;
+    max-width: 1000px; }
+    .kursplan-kursanmeldung .modal-container input:focus,
+    .kursplan-kursanmeldung .modal-container textarea:focus,
+    .kursplan-kursanmeldung .modal-container select:focus {
+      border: 1px solid #f05f40; }
+    .kursplan-kursanmeldung .modal-container input[type="submit"],
+    .kursplan-kursanmeldung .modal-container textarea[type="submit"],
+    .kursplan-kursanmeldung .modal-container select[type="submit"] {
+      transition: all .35s; }
+
+#impressum a {
+  color: #f05f40;
+  text-decoration: none; }
+
+#nutzungsbedinungen {
+  padding-top: 0; }
+
+section#preise .preis-container .preis-info {
+  font-size: 18px;
+  padding: 15px; }
+  section#preise .preis-container .preis-info table.preis-info-table {
+    width: 100%; }
+    section#preise .preis-container .preis-info table.preis-info-table th {
+      font-weight: 700;
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #555555; }
+    section#preise .preis-container .preis-info table.preis-info-table td {
+      padding: 15px;
+      text-align: center;
+      border-bottom: 1px solid #bbbbbb; }
+      section#preise .preis-container .preis-info table.preis-info-table td em {
+        font-size: 14px;
+        color: #555555; }
+
+section#preise .toggle-container {
+  padding-top: 50px; }
+
+section#preise .switch-preise {
+  display: block;
+  position: relative; }
+  section#preise .switch-preise a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 12.5%;
+    width: 25%;
+    z-index: 4;
+    transition: all 0.35s ease-in-out; }
+  section#preise .switch-preise input {
+    opacity: 0;
+    z-index: 5; }
+    section#preise .switch-preise input:checked ~ a {
+      left: 62.5%; }
+  section#preise .switch-preise span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #555555; }
+    section#preise .switch-preise span span {
+      position: absolute;
+      display: block;
+      width: 50%;
+      z-index: 5;
+      text-align: center;
+      top: 0;
+      left: 0;
+      font-size: 14px;
+      text-transform: uppercase;
+      padding: 6px 14px; }
+      section#preise .switch-preise span span:last-child {
+        left: 50%; }
+  section#preise .switch-preise:hover {
+    cursor: pointer; }
+
+section#about-header {
+  color: #555555;
+  background-image: url("/img/SelinaBallbild.png");
+  background-size: contain;
+  background-position: right center;
+  background-repeat: no-repeat; }
+  section#about-header .about-col-50 {
+    width: 50%; }
+
+@media (max-width: 1200px) {
+  section#about-header {
+    background-image: none; }
+    section#about-header .about-col-50 {
+      width: 100%; } }
+
+section#about-trainer .trainer-container {
+  padding: 0px 75px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  section#about-trainer .trainer-container .trainer-box {
+    width: 350px;
+    margin: 0 25px; }
+
+section#about-trainer .trainer-img {
+  text-align: center; }
+  section#about-trainer .trainer-img img {
+    width: 100%;
+    max-width: 400px;
+    margin: 0px auto; }
+
+section.massagen-header {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background-image: url(../img/Massagefrau.jpg);
+  background-position: center;
+  background-size: cover; }
+  section.massagen-header .header-content {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 100px 15px; }
+    section.massagen-header .header-content .header-content-inner {
+      padding: 30px 10px; }
+      section.massagen-header .header-content .header-content-inner hr {
+        border-color: #fff; }
+      section.massagen-header .header-content .header-content-inner p {
+        margin: 0; }
+      section.massagen-header .header-content .header-content-inner em {
+        display: block;
+        margin-bottom: 20px; }
+      section.massagen-header .header-content .header-content-inner h1 {
+        font-family: 'neoSans';
+        font-weight: 100;
+        font-style: italic;
+        font-size: 60px; }
+        section.massagen-header .header-content .header-content-inner h1 span {
+          font-size: 14px; }
+      section.massagen-header .header-content .header-content-inner h2 {
+        width: 80%;
+        margin: 0 auto;
+        color: #ffffff;
+        font-weight: 100;
+        font-size: 24px; }
+        section.massagen-header .header-content .header-content-inner h2 em {
+          font-size: 18px;
+          font-style: normal; }
+    section.massagen-header .header-content .header-inner-bg {
+      padding: 30px 10px;
+      background-color: rgba(240, 95, 64, 0.8); }
+
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity; }
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0; }
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0); }
+
+.carousel-fade .carousel-control {
+  z-index: 2; }
+
+.carousel-indicators {
+  position: relative;
+  display: block;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid #f05f40; }
+  .carousel-indicators li {
+    display: block;
+    width: 50%;
+    height: auto;
+    text-indent: inherit;
+    border: none;
+    border-radius: 0;
+    float: left;
+    margin: 0; }
+  .carousel-indicators li.active {
+    width: 50%;
+    height: auto;
+    background: none; }
+
+.massage-container {
+  display: block; }
+
+.massage-col {
+  display: block;
+  width: 100%;
+  text-align: center; }
+
+#massage-angebote {
+  color: #555555; }
+
+.massage-list {
+  list-style: none;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  margin-bottom: 15px; }
+  .massage-list__item {
+    padding-bottom: 5px; }
+    .massage-list__item:hover, .massage-list__item:focus {
+      color: #f05f40;
+      cursor: pointer; }
+  .massage-list__item.active {
+    color: #f05f40; }
+
+.massage-preise-container {
+  border-top: 1px solid #f05f40;
+  padding-top: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+.massage-anfrage-button {
+  text-align: center;
+  margin-top: 50px; }
+
+#massage-trainer {
+  color: #ffffff; }
+
+.massage-trainer-image img {
+  width: 100%;
+  max-width: 400px; }
+
+.massage-trainer-beschreibung {
+  text-align: justify; }
+
+.massagen-anfrage {
+  max-width: 1000px; }
+  .massagen-anfrage .modal-container {
+    width: 100%;
+    max-width: 1000px; }
+    .massagen-anfrage .modal-container input:focus,
+    .massagen-anfrage .modal-container textarea:focus,
+    .massagen-anfrage .modal-container select:focus {
+      border: 1px solid #f05f40; }
+    .massagen-anfrage .modal-container input[type="submit"],
+    .massagen-anfrage .modal-container textarea[type="submit"],
+    .massagen-anfrage .modal-container select[type="submit"] {
+      transition: all .35s; }
+
+@media (min-width: 768px) {
+  section.massagen-header {
+    min-height: 100%; }
+    section.massagen-header .header-content {
+      position: absolute;
+      top: 50%;
+      padding: 0 50px;
+      transform: translateY(-50%); }
+      section.massagen-header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 800px; }
+  .massage-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  .massage-list {
+    display: inline-block;
+    text-align: left;
+    font-size: 24px; }
+    .massage-list__item:after {
+      margin: 15px 0 0;
+      content: " ";
+      border-bottom: 2px solid #f05f40;
+      max-width: 50px;
+      display: block; }
+    .massage-list__item:last-child:after {
+      border: none; }
+  .massage-beschreibung {
+    text-align: justify; }
+  .carousel-indicators {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: auto;
+    border-bottom: none; }
+    .carousel-indicators li {
+      display: block;
+      width: auto;
+      height: auto;
+      text-indent: inherit;
+      border: none;
+      border-radius: 0;
+      float: none; }
+    .carousel-indicators li.active {
+      width: auto;
+      height: auto;
+      background: none; } }
+
+#rezension .carousel-control {
+  background: none !important; }
+  #rezension .carousel-control .fa {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px; }
+
+#rezension .rezension-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: center;
+  align-items: center; }
+  #rezension .rezension-container .rezension-img {
+    padding-right: 100px; }
+    #rezension .rezension-container .rezension-img img {
+      min-width: 150px;
+      max-width: 150px;
+      border: 1px solid #ffffff;
+      webkit-box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.5); }
+  #rezension .rezension-container .rezension-text {
+    padding: 0px 15px; }
+    #rezension .rezension-container .rezension-text p {
+      color: #ffffff; }
+    #rezension .rezension-container .rezension-text em.rezension-autor {
+      font-size: 18px;
+      color: #ffffff; }
+
+@media (max-width: 950px) {
+  #rezension .rezension-container {
+    display: block; }
+    #rezension .rezension-container .rezension-img {
+      width: 100%;
+      padding-right: 0px;
+      padding-bottom: 20px; } }
+
+#kontakt {
+  color: #555555; }
+
+.kontakt-form {
+  padding-top: 30px; }
+  .kontakt-form input:focus,
+  .kontakt-form textarea:focus {
+    border: 1px solid #f05f40; }
+  .kontakt-form input[type="submit"],
+  .kontakt-form textarea[type="submit"] {
+    transition: all .35s; }
+
+/* Flexible iFrame */
+.flexible-container {
+  position: relative;
+  padding-bottom: 60%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin: 30px 15px 0px 0; }
+  .flexible-container iframe,
+  .flexible-container object,
+  .flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+.anfahrt-beschreibung {
+  padding-top: 30px; }
+  .anfahrt-beschreibung .anfahrt-img-container {
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    overflow: hidden; }
+    .anfahrt-beschreibung .anfahrt-img-container img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+
+.anfahrt-verkehr-list {
+  padding-top: 30px; }
+  .anfahrt-verkehr-list ul {
+    padding-top: 30px;
+    list-style: none;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-size: 18px; }
+    .anfahrt-verkehr-list ul li {
+      list-style: none;
+      background-repeat: no-repeat;
+      margin: 10px 0;
+      padding-left: 70px;
+      line-height: 1.5; }
+    .anfahrt-verkehr-list ul .auto {
+      background-image: url("/img/anfahrt-list/auto.png");
+      background-size: contain;
+      background-position: left center;
+      background-repeat: no-repeat; }
+    .anfahrt-verkehr-list ul .bus {
+      background-image: url("/img/anfahrt-list/bus.png");
+      background-size: contain;
+      background-position: left center;
+      background-repeat: no-repeat; }
+
+@media (max-width: 767px) {
+  .flexible-container {
+    margin: 10px 0px 0px 0px; } }
+
+#aktion .angebot {
+  color: #ffffff; }
+  #aktion .angebot .angebot-beschreibung {
+    font-size: 12px; }
+
+#angebote a.portfolio-box .portfolio-box-overlay {
+  position: absolute;
+  bottom: 0;
+  height: 10%;
+  width: 40%;
+  left: 30%;
+  text-align: center;
+  color: #555555;
+  background-color: rgba(240, 95, 64, 0.8);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  vertical-align: middle;
+  transition: all .35s ease-in-out; }
+  #angebote a.portfolio-box .portfolio-box-overlay .portfolio-box-inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    #angebote a.portfolio-box .portfolio-box-overlay .portfolio-box-inner h4 {
+      color: #ffffff;
+      font-size: 18px; }
+
+#angebote a.portfolio-box:hover .portfolio-box-overlay {
+  height: 100%;
+  width: 100%;
+  left: 0; }
+
+.home-kursanmeldung-footer-text {
+  font-size: 12px;
+  text-align: left; }
+
+.home-kursanmeldung-form input:focus,
+.home-kursanmeldung-form textarea:focus {
+  border: 1px solid #f05f40; }
+
+.home-kursanmeldung-form input[type="submit"],
+.home-kursanmeldung-form textarea[type="submit"] {
+  transition: all .35s; }
+
+span.old-price {
+  text-decoration: line-through; }
+
+.muttertag {
+  background-image: url("../img/muttertagsspecial/hintergrund-muttertag.jpg");
+  background-position: center center;
+  background-size: cover; }
+  .muttertag-content {
+    padding: 40px 0 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border: 2px solid #c687af; }
+
+#wrapper #page-content-wrapper {
+  padding-top: 50px; }
+  #wrapper #page-content-wrapper .profile-error-list {
+    list-style: none;
+    padding: 0; }
+
+div#profile-dashboard {
+  margin-top: 25px;
+  padding-top: 0px; }
+
+#profil-header {
+  background-image: url(../img/Yours_Kursraum_profil.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.profile-kurs-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+.profile-kurs-item {
+  min-width: 30%;
+  padding-bottom: 20px;
+  font-size: 18px; }
+  .profile-kurs-item-header {
+    text-align: center; }
+
+.profile-dashboard-kursliste {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 18px; }
+  .profile-dashboard-kursliste li {
+    margin: 0 30px;
+    padding: 15px 0;
+    border-bottom: 1px solid #bbbbbb; }
+    .profile-dashboard-kursliste li:last-child {
+      border: none; }
+
+.profile-dashboard-button {
+  margin-left: 15px; }
+  .profile-dashboard-button:hover {
+    color: #ffffff; }
+
+.kurstermin-info-cta {
+  text-align: center;
+  margin-top: 25px; }
+
+.profile-dashboard-table {
+  font-size: 18px;
+  text-align: left;
+  margin: 0 auto; }
+  .profile-dashboard-table tr {
+    border-bottom: 1px solid #bbbbbb; }
+    .profile-dashboard-table tr:last-child {
+      border: none; }
+    .profile-dashboard-table tr td {
+      padding: 15px; }
+      @media (max-width: 470px) {
+        .profile-dashboard-table tr td {
+          padding: 5px 0px; } }
+
+section#user-data {
+  margin-top: 25px;
+  padding-top: 0px; }
+  section#user-data .user-stammdaten {
+    margin: 0 25px;
+    padding: 25px 30px;
+    background-color: #fafafa;
+    box-shadow: 0 0px 9px rgba(0, 0, 0, 0.3);
+    text-align: center; }
+    section#user-data .user-stammdaten table.profile-user_data-stammdaten {
+      padding: 0;
+      margin: 0;
+      width: 100%; }
+      section#user-data .user-stammdaten table.profile-user_data-stammdaten tr {
+        border-bottom: 1px solid #bbbbbb;
+        margin: 0 30px; }
+        section#user-data .user-stammdaten table.profile-user_data-stammdaten tr:last-child {
+          border: none; }
+        section#user-data .user-stammdaten table.profile-user_data-stammdaten tr td {
+          margin: 0 30px;
+          padding: 15px 0; }
+
+.list-kurstermin-item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding: 20px 0px;
+  border-bottom: 1px solid #bbbbbb; }
+  .list-kurstermin-item:last-child {
+    border: none; }
+  .list-kurstermin-item--info, .list-kurstermin-item--link {
+    font-size: 18px; }
+
+header {
+  background-image: url(../img/Yours_Kursraum.jpg); }
+  header .header-content .header-content-inner hr {
+    border-color: #fff; }
+  header .header-content .header-content-inner p.bold {
+    font-family: 'neoSans';
+    font-weight: 100;
+    font-style: italic;
+    font-size: 16px; }
+  header .header-content .header-content-inner h1 {
+    font-family: 'neoSans';
+    font-weight: 100;
+    font-style: italic;
+    font-size: 60px; }
+    header .header-content .header-content-inner h1 span {
+      font-size: 14px; }
+  header .header-content .header-content-inner h2 {
+    width: 80%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 24px; }
+    header .header-content .header-content-inner h2 em {
+      font-size: 18px;
+      font-style: normal; }
+  header .header-content .header-inner-bg {
+    padding: 30px 10px;
+    background-color: rgba(240, 95, 64, 0.8); }
+
+.navbar {
+  background-color: rgba(240, 95, 64, 0.8); }
+  .navbar .navbar-nav li a {
+    color: #ffffff;
+    font-weight: 100; }
+    .navbar .navbar-nav li a:hover, .navbar .navbar-nav li a:hover:focus {
+      color: #ffffff;
+      text-decoration: underline; }
+    .navbar .navbar-nav li a:focus {
+      font-weight: 100 !important;
+      outline: none;
+      color: #fff; }
+
+.navbar-header a.navbar-brand {
+  font-family: "neoSans";
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 100 !important;
+  padding: 15px; }
+  .navbar-header a.navbar-brand img {
+    max-height: 100%;
+    max-width: 100%; }
+
+.navbar-header p.navbar-brand {
+  margin: 0;
+  font-weight: 100 !important;
+  letter-spacing: 0 !important;
+  padding-left: 30px; }
+
+.navbar-default .navbar-toggle {
+  border-radius: 0;
+  border-color: #ffffff; }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff; }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #ffffff;
+    border-color: #f05f40; }
+    .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar {
+      background-color: #f05f40; }
+
+.dropdown-menu.dropdown-profile-list {
+  border-radius: 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center; }
+  .dropdown-menu.dropdown-profile-list li a:hover {
+    background-color: transparent;
+    text-decoration: underline; }
+
+.open a:hover, .open a:focus {
+  background-color: transparent !important; }
+
+.affix-top .dropdown-menu.dropdown-profile-list {
+  background-color: rgba(240, 95, 64, 0.8);
+  color: #ffffff; }
+  .affix-top .dropdown-menu.dropdown-profile-list li a:hover {
+    color: #ffffff; }
+
+.affix-top .open a:hover, .affix-top .open a:focus {
+  color: #ffffff !important; }
+
+.affix .dropdown-menu.dropdown-profile-list li a {
+  color: #555555; }
+  .affix .dropdown-menu.dropdown-profile-list li a:hover {
+    color: #f05f40; }
+
+@media (max-width: 930px) {
+  .dropdown-menu.dropdown-profile-list {
+    border-radius: 0;
+    text-align: left;
+    color: #ffffff; }
+    .dropdown-menu.dropdown-profile-list li a:hover, .dropdown-menu.dropdown-profile-list li a:focus {
+      background-color: transparent !important;
+      text-decoration: underline;
+      color: #ffffff; }
+  .open a {
+    color: #ffffff !important; }
+    .open a:hover, .open a:focus {
+      background-color: transparent !important;
+      color: #ffffff !important; }
+  .affix-top .dropdown-menu.dropdown-profile-list {
+    background-color: transparent; } }
+
+#footer {
+  color: #555555;
+  border-top: 1px solid #3B3B3B;
+  padding: 50px 0; }
+  #footer p {
+    text-align: center; }
+  #footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+    #footer ul li a {
+      color: #555555;
+      text-decoration: none; }
+      #footer ul li a:hover {
+        color: #f05f40; }
+
+.login-form {
+  padding: 30px; }
+  .login-form .form-control:focus {
+    border-color: #f05f40;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(240, 95, 64, 0.6); }
+
+.kursanmeldung-modal {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  bottom: 5%;
+  height: 90%;
+  width: 90%;
+  background-color: #ffffff;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5); }
+  .kursanmeldung-modal #heading {
+    padding: 50px 0;
+    position: relative; }
+    .kursanmeldung-modal #heading .row {
+      margin: 0; }
+  .kursanmeldung-modal .kursanmeldung-form input:focus,
+  .kursanmeldung-modal .kursanmeldung-form textarea:focus,
+  .kursanmeldung-modal .kursanmeldung-form select:focus,
+  .kursanmeldung-modal .kursanmeldung-form .form-control:focus {
+    border: 1px solid #f05f40; }
+  .kursanmeldung-modal .kursanmeldung-form input[type="submit"],
+  .kursanmeldung-modal .kursanmeldung-form textarea[type="submit"],
+  .kursanmeldung-modal .kursanmeldung-form select[type="submit"],
+  .kursanmeldung-modal .kursanmeldung-form .form-control[type="submit"] {
+    transition: all .35s; }
+  .kursanmeldung-modal .kursanmeldung-form input span.kursanmeldung-form-zeit,
+  .kursanmeldung-modal .kursanmeldung-form textarea span.kursanmeldung-form-zeit,
+  .kursanmeldung-modal .kursanmeldung-form select span.kursanmeldung-form-zeit,
+  .kursanmeldung-modal .kursanmeldung-form .form-control span.kursanmeldung-form-zeit {
+    display: block;
+    width: 30%; }
+    .kursanmeldung-modal .kursanmeldung-form input span.kursanmeldung-form-zeit:after,
+    .kursanmeldung-modal .kursanmeldung-form textarea span.kursanmeldung-form-zeit:after,
+    .kursanmeldung-modal .kursanmeldung-form select span.kursanmeldung-form-zeit:after,
+    .kursanmeldung-modal .kursanmeldung-form .form-control span.kursanmeldung-form-zeit:after {
+      content: "|"; }
+  @media (max-width: 991px) {
+    .kursanmeldung-modal {
+      top: 5%;
+      left: 5%;
+      bottom: 5%;
+      height: 90%;
+      width: 90%; } }
+
+.cta-neukunde {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -300px;
+  opacity: 0;
+  width: 300px;
+  padding: 30px;
+  box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.5);
+  z-index: 99; }
+  .cta-neukunde p {
+    font-family: "crayon"; }
+  .cta-neukunde .cta-heading p {
+    font-size: 30px; }
+  .cta-neukunde .cta-heading .cta-neukunde-big-number {
+    font-size: 40px; }
+  .cta-neukunde .cta-neukunde-close {
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #ffffff; }
+    .cta-neukunde .cta-neukunde-close:hover, .cta-neukunde .cta-neukunde-close:focus {
+      text-decoration: underline; }
+  .cta-neukunde .cta-neukunde-close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    background-color: transparent; }
+    .cta-neukunde .cta-neukunde-close-button:focus, .cta-neukunde .cta-neukunde-close-button:active {
+      outline: none; }
+    .cta-neukunde .cta-neukunde-close-button span {
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: #ffffff;
+      transition: transform 0.35s ease-in-out;
+      transform: rotate(45deg); }
+      .cta-neukunde .cta-neukunde-close-button span:before {
+        content: "";
+        position: absolute;
+        display: block;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background-color: #ffffff;
+        transform: rotate(90deg); }
+
+/*# sourceMappingURL=public.css.map */

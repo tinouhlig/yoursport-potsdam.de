@@ -1,0 +1,134 @@
+.modal-mask
+    position: fixed
+    z-index: 9998
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, .5)
+    display: flex
+    justify-content: center
+    align-items: center
+    transition: opacity .3s ease
+
+
+    .modal-wrapper
+        max-height: 90%
+        display: block
+        width: 90%
+        overflow-y: auto
+        max-width: 1000px
+
+
+    .modal-container
+        width: 100%
+        max-width: 1000px
+        // min-height: 500px
+        max-height: 100%
+        margin: 0px auto
+        padding: 20px 30px
+        background-color: #fff
+        border-radius: 0px
+        box-shadow: $box-shadow-modal
+        transition: all .3s ease
+
+    .modal-big
+        width: 900px
+
+
+    .modal-header
+        position: relative
+        .modal-close-button
+            position: absolute
+            top: 0px
+            right: 0px
+            height: 30px
+            width: 30px
+            overflow: hidden
+            margin: 0
+            padding: 0
+            border: none
+            box-shadow: none
+            cursor: pointer
+            background-color: transparent
+            &:focus,
+            &:active
+                outline: none
+            span
+                display: block
+                position: absolute
+                top: 10px
+                left: 0
+                right: 0
+                height: 3px
+                background: #999
+                transition: all 0.35s ease-in-out
+                @include transform(rotate(45deg))
+                &:before
+                    content: ""
+                    position: absolute
+                    display: block
+                    left: 0
+                    width: 100%
+                    height: 3px
+                    background-color: #999
+                    @include transform(rotate(90deg))
+
+            &:hover
+                span
+                    @include transform(rotate(135deg))
+        h3
+            margin-top: 0
+            text-align: center
+            color: $color-standard-font
+            font-size: $font-big
+
+
+    .modal-body
+        margin: 20px 0
+        text-align: center
+
+    .modal-close-text
+        color: $color-primary
+        border: none
+        box-shadow: none
+        cursor: pointer
+        background-color: transparent
+        font-size: $font-normal
+        &:hover,
+        &:focus
+            text-decoration: underline
+            border: 0px
+            outline: 0px
+
+
+    .modal-default-button
+        float: right
+
+    .modal-errors
+        padding: 5px
+        margin-bottom: 10px
+        background-color: rgba(255, 0, 0, 0.5)
+        .modal-error
+            padding-bottom: 5px
+            &:last-child
+                padding-bottom: 0px
+            p
+                color: #fff
+
+// * the following styles are auto-applied to elements with
+// * v-transition="modal" when their visiblity is toggled
+// * by Vue.js.
+// *
+// * You can easily play with the modal transition by editing
+// * these styles.
+
+
+.modal-enter, .modal-leave
+    opacity: 0
+
+
+.modal-enter .modal-container,
+.modal-leave .modal-container
+    -webkit-transform: scale(1.1)
+    transform: scale(1.1)
