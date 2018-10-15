@@ -105,7 +105,7 @@ class PublicController extends Controller
         $data['subject'] = 'Anfrage für ' . $data['massagen'];
 
         Mail::send('mail.massageanfrage', ['data' => $data], function ($m) use ($data) {
-            $m->to(['info@yoursport-potsdam.de', 'andrea@ebm-online.biz'])
+            $m->to(['info@yoursport-potsdam.de'])
                 ->from($data['email'])
                 ->subject($data['subject']);
         });
