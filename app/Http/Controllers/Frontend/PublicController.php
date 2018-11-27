@@ -190,7 +190,7 @@ class PublicController extends Controller
         $prevWeek = clone $startOfWeek;
         $prevWeek->subWeek();
         $nextWeek = clone $startOfWeek;
-        $nextWeek->addWeek();
+        $nextWeek->addWeek()->endOfWeek();
 
         return view('public.pages.kursplan', compact('coursedates', 'startOfWeek', 'startOfWeekCopy', 'weekDayDE', 'gapMargin', 'prevWeek', 'nextWeek'));
     }
