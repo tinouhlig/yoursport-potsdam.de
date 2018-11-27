@@ -33,6 +33,9 @@ Route::get('/kurse/{coursetype}', ['as' => 'kurs', 'uses' => 'Frontend\PublicCon
 Route::get('/impressum', ['as' => 'impressum', function() {
     return view('public.pages.impressum');
 }]);
+Route::get('/datenschutz', ['as' => 'datenschutz', function() {
+    return view('public.pages.datenschutz');
+}]);
 Route::get('/preise', ['as' => 'preise', function() {
     return view('public.pages.preise');
 }]);
