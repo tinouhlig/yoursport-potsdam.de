@@ -23,6 +23,7 @@
                 <hr class="hr-primary">
                 <ul>
                     <li><a href="{{ route('impressum') }}">Impressum</a></li>
+                    <li><a href="{{ route('datenschutz') }}">Datenschutz</a></li>
                     <li>&copy; {{ Carbon\Carbon::now()->format('Y') }} Selina Kühlwein | YOURS</li>
                 </ul>
             </div>
