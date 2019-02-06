@@ -81,8 +81,6 @@
                     massagen : {
                         'Klassische Massage': {name: 'Klassische Massage', dauer: ['30 min', '45 min', '60 min', '90 min']},
                         'Aromaölmassage': {name: 'Aromaölmassage', dauer: ['30 min', '45 min', '60 min', '90 min']},
-                        'Fußreflexzonenmassage': {name: 'Fußreflexzonenmassage', dauer: ['30 min', '45 min', '60 min']},
-                        'Hot Stone Massage': {name: 'Hot Stone Massage', dauer: ['60 min', '90 min']},
                         'Gentle Pressure Technique': {name: 'Gentle Pressure Technique', dauer: ['30 min', '45 min']},
                         'Ganzkörpermassage Abhyanga': {name: 'Ganzkörpermassage Abhyanga', dauer: ['60 min', '90 min']}
                     },
