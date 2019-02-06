@@ -59,13 +59,6 @@
                             … liebt es, wenn sie Andere zum Lächeln bringen kann. Aufgrund ihrer brasilianischen Herkunft und Spontanität ist jede Zumba Stunde besonders spaßig, aber auch schweißtreibend. Beim Tanzen geht ihr das Herz auf!
                         </p>
                     </div>
-                    <div class="trainer-box">
-                        <div class="trainer-img"><img src="/img/trainer/monika-wegener.png" class="img-responsive wow fadeIn" data-wow-delay=".1s" data-wow-offset="150" alt=""></div>
-                        <h3 class="light-heading m-t-10">Monika</h3>
-                        <p class="text-light">
-                            … ist seit nunmehr 13 Jahren Bikram­ bzw. Poweryogalehrerin. Sie unterrichtet mit viel Freude und Engagement in Berlin und Potsdam.Ihre Arbeit als Erzieherin ermöglicht es ihr, ebenfalls Yoga für Schulkinder anzubieten.
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>
