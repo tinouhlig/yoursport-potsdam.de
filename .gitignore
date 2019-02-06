@@ -4,3 +4,4 @@ Homestead.yaml
 .env
 .env.example
 .env.production
+yoursp_db_2.sql
