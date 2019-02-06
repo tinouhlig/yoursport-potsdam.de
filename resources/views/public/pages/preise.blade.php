@@ -28,7 +28,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>65,00€<br>&nbsp;</td>
+                                        <td>70,00€<br>&nbsp;</td>
                                     </tr>
                                     <tr>
                                         <td>5<br><em>Kurse</em></td>
@@ -55,13 +55,13 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>49,00€ / 55,00€<br><em>monatl.</em></td>
+                                        <td>59,00€<br><em>monatl.</em></td>
                                     </tr>
                                     <tr>
                                         <td>1<br><em>Kurs pro Woche</em></td>
                                     </tr>
                                     <tr>
-                                        <td>15 / 9<br><em>Monate Laufzeit</em></td>
+                                        <td>9<br><em>Monate Laufzeit</em></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -71,18 +71,18 @@
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="preis-container">
                         <div class="preis-img">
-                            <img src="/img/preise/orange-card.png" class="img-responsive" alt="orange-card">
+                            <img src="/img/preise/orange-card.png" class="img-responsive" alt="orange-card-solo">
                         </div>
                         <div class="preis-info">
                             <table class="preis-info-table">
                                 <thead>
                                     <tr>
-                                        <th>Orange Card</th>
+                                        <th>Orange Card Solo</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>79,00€<br><em>monatl.</em></td>
+                                        <td>85,00€<br><em>monatl.</em></td>
                                     </tr>
                                     <tr>
                                         <td>2<br><em>Kurse pro Woche</em></td>
@@ -98,21 +98,21 @@
                 <div class="col-lg-2 col-md-3 col-sm-6">
                     <div class="preis-container">
                         <div class="preis-img">
-                            <img src="/img/preise/black-card.png" class="img-responsive" alt="black-card">
+                            <img src="/img/preise/orange-card.png" class="img-responsive" alt="orange-card-plus">
                         </div>
                         <div class="preis-info">
                             <table class="preis-info-table">
                                 <thead>
                                     <tr>
-                                        <th>Black Card</th>
+                                        <th>Orange Card Plus*</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>99,00€<br><em>monatl.</em></td>
+                                        <td>89,00€<br><em>monatl.</em></td>
                                     </tr>
                                     <tr>
-                                        <td>3<br><em>Kurse pro Woche</em></td>
+                                        <td>2<br><em>Kurse pro Woche</em></td>
                                     </tr>
                                     <tr>
                                         <td>15<br><em>Monate Laufzeit</em></td>
@@ -121,6 +121,11 @@
                             </table>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <em>*gilt für Familienmitglieder. Kurse können getrennt besucht.</em>
                 </div>
             </div>
         </section>
