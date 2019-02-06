@@ -32,16 +32,6 @@
                         <hr class="hr-primary">
                     </div>
                 </div>
-                 <div class="row angebot">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <p class="text-uppercase">
-                            <span class="text-primary">>></span> WEIHNACHTSPAUSE <span class="text-primary"><<</span><br>
-                            Das Studio bleibt vom <span class="text-primary">21.12.18 - 04.01.19</span> geschlossen. <br>
-                            Wir wünschen frohe Weihnachten und einen guten Rutsch ins neue Jahr!
-                        </p>
-                        <hr class="hr-primary">
-                    </div>
-                </div>
                 <div class="row angebot">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <p class="text-uppercase">
