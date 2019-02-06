@@ -278,7 +278,7 @@
                                 <ul>
                                     <li class="auto">
                                         Kostenlose Parkmöglichkeiten vor dem Gebäude + Tiefgarage <br>
-                                        Achtung: Tiefgarage schließt um 20 Uhr!
+                                        Achtung: Tiefgarage schließt um 19 Uhr!
                                     </li>
                                     <li class="bus">Die Linien 612, 614 und 692 halten an der Haltestelle Thaerstrasse direkt vor dem Carree</li>
                                 </ul>
