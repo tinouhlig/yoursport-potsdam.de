@@ -35,6 +35,16 @@
                 <div class="row angebot">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <p class="text-uppercase">
+                            <span class="text-primary">>></span> Schließzeiten über Ostern <span class="text-primary"><<</span><br>
+                            Das Studio bleibt vom <strong>19.04. - 25.04. geschlossen</strong>.
+                            <br> Weiter geht es am 26.04. mit dem Rückenkurs bei Ariane!
+                        </p>
+                        <hr class="hr-primary">
+                    </div>
+                </div>
+                <div class="row angebot">
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <p class="text-uppercase">
                             <span class="text-primary">>></span> ONE WEEK - TICKET <span class="text-primary"><<</span><br>
                             Zwei Kurse zum Preis von Einem für nur 15€.<br> Jetzt unverbindlich Kurs auswählen und Anfrage senden!
                         </p>
