@@ -55,7 +55,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>59,00€<br><em>monatl.</em></td>
+                                        <td>49,00€<br><em>monatl.</em></td>
                                     </tr>
                                     <tr>
                                         <td>1<br><em>Kurs pro Woche</em></td>
@@ -82,7 +82,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>85,00€<br><em>monatl.</em></td>
+                                        <td>79,00€<br><em>monatl.</em></td>
                                     </tr>
                                     <tr>
                                         <td>2<br><em>Kurse pro Woche</em></td>
@@ -125,7 +125,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <em>*gilt für Familienmitglieder. Kurse können getrennt besucht.</em>
+                    <em>*gilt für Familienmitglieder. Kurse können getrennt besucht werden.</em>
                 </div>
             </div>
         </section>
