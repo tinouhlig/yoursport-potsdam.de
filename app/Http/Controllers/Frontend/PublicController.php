@@ -27,7 +27,10 @@ class PublicController extends Controller
         }
         Session::put('user_active', true);
 
-        return view('public.pages.home', compact('showCTA'));
+        $firstNumber = rand(0, 10);
+        $secondNumber = rand(0, 10);
+
+        return view('public.pages.home', compact('showCTA', 'firstNumber', 'secondNumber'));
     }
 
 

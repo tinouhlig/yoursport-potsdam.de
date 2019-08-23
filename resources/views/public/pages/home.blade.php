@@ -238,10 +238,20 @@
                                     {!! Form::textarea('message', null, [ 'class' => 'form-control', 'required' => 'required'] ) !!}
                                     {!! $errors->first('message', '<p class="form-error-block">:message</p>') !!}
                                 </div>
+                                <div class="form-group col-lg-12">
+                                    {!! Form::label('math_result', 'Bitte beantworte noch eine letzte Frage') !!}
+                                    <div class="input-group">
+                                        <div class="input-group-addon">Was ergibt {{ $firstNumber }} + {{ $secondNumber }}</div>
+                                        <input class="form-control" name="math_result" id="math_result" placeholder="Ergebnis" type="text">
+                                    </div>
+                                    {!! $errors->first('math_result', '<p class="form-error-block">:message</p>') !!}
+                                </div>
                                 <div class="form-group col-md-12">
                                     {!! Form::submit('Senden', [ 'class' => 'form-control btn button-primary'] ) !!}
                                 </div>
                                 {!! Form::text('spam_filter', null, [ 'class' => 'input-hidden']) !!}
+                                <input type="text" name="first_number" value="{{$firstNumber}}" class="input-hidden">
+                                <input type="text" name="second_number" value="{{$secondNumber}}" class="input-hidden">
                             {!! Form::close() !!}
                         </div>
                     </div>
