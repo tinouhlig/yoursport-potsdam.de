@@ -32,16 +32,16 @@
                         <hr class="hr-primary">
                     </div>
                 </div>
-                <div class="row angebot">
-                    <div class="col-lg-8 col-lg-offset-2 text-center">
-                        <p class="text-uppercase">
-                            <span class="text-primary">>></span> SOMMERPAUSE <span class="text-primary"><<</span><br>
-                            Das Studio bleibt im Sommer vom <strong>22.07. - 02.08. geschlossen</strong>.
-                            <br> Weiter geht es am Montag, den 05.08.19!
-                        </p>
-                        <hr class="hr-primary">
-                    </div>
-                </div>
+{{--                <div class="row angebot">--}}
+{{--                    <div class="col-lg-8 col-lg-offset-2 text-center">--}}
+{{--                        <p class="text-uppercase">--}}
+{{--                            <span class="text-primary">>></span> SOMMERPAUSE <span class="text-primary"><<</span><br>--}}
+{{--                            Das Studio bleibt im Sommer vom <strong>22.07. - 02.08. geschlossen</strong>.--}}
+{{--                            <br> Weiter geht es am Montag, den 05.08.19!--}}
+{{--                        </p>--}}
+{{--                        <hr class="hr-primary">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
                 <div class="row angebot">
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <p class="text-uppercase">
